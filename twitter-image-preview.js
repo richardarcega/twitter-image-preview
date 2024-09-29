@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         Twitter Image Preview
 // @namespace    http://tampermonkey.net/
-// @version      0.0.1
+// @version      0.0.2
 // @description  Shows full image previews on hover allowing users to more easily view images embedded in tweets.
 // @author       Richard Arcega
 // @match        https://twitter.com/*
+// @match        https://x.com/*
 // @downloadURL  https://raw.githubusercontent.com/richardarcega/twitter-image-preview/master/twitter-image-preview.js
 // ==/UserScript==
 const mainSelector = 'main';
